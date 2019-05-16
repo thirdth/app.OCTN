@@ -1,0 +1,340 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Titillium+Web);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/*contains boxes inside the ultimate size*/
+*{
+  -webkit-box-sizing: border-box;
+  -mox-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+
+}
+
+h3  {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+h4  {
+  font-family: 'Roboto', sans-serif;
+  font-size:  1.2em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline;
+  margin: 2.5px;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.head {
+  border-bottom: 5px solid black;
+  margin-bottom: 5px;
+}
+
+.company  {
+  text-align: left;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.hero {
+  margin: 7px;
+}
+
+.stillText  {
+  min-height: 350px;
+  background-image: url("/img/time1200x450.jpg");
+  background-size:     cover;
+}
+
+.stillText p{
+  font-size: 1.2em;
+}
+
+.info {
+  border-bottom: .5px solid black;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+.infoBox  {
+  border-left: 1px solid grey;
+  min-height: 182px;
+}
+
+.results  {
+  border-right: .5px dotted lightgrey;
+  text-align: left;
+  padding-top: 10px;
+  min-height: 182px;
+}
+
+.results input{
+  background-color: transparent;
+  border: 0px solid;
+  font-size: 1em;
+  text-align: left;
+  width: 100%;
+}
+
+.results button {
+  width: auto;
+  align: right;
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+.results textarea {
+  background-color: transparent;
+  border: 0px solid;
+
+  resize: none;
+  text-align: left;
+}
+
+.leftColumn a {
+  margin: 0px;
+  color: black;
+}
+
+.leftColumn li {
+  font-size: 1.2em;
+  margin: 2.5px;
+  width: 100%;
+  display: inline-block;
+  border: .5px solid black;
+  padding: 1px;
+}
+
+.event  {
+  color: navy;
+  font-size: .7em;
+}
+
+.login  a {
+  text-decoration: none;
+  color: #d9603b;
+  font-size: .6em;
+  vertical-align: middle;
+}
+
+main button  {
+  width: 100px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 770px) {
+  .hero {
+    margin: 5px;
+  }
+
+  .head {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .company{
+    text-align: center;
+  }
+
+
+  .stillText  {
+    padding: 8px;
+    min-height: 225px;
+    background-size: cover;
+    background-color: #f2f9ff;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
+  }
+
+  .stillText h3 {
+    margin-top: 0px;
+  }
+
+  .infoBox  {
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 1px solid grey;
+    min-height: auto;
+  }
+
+  .results  {
+    width: 50% !important;
+    margin-top: 15px;
+  }
+
+  .big-text {
+    text-align: center;
+    border-right: 0px !important;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+  .col-xs-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  input {
+    float: right;
+  }
+
+  .stillText  {
+    min-height: auto;
+  }
+
+  .stillText p  {
+    display: none;
+  }
+
+  .results  {
+    width: 100% !important;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .results input,
+  .results textarea{
+    text-align: center;
+  }
+
+  td  {
+    overflow: hidden;
+  }
+
+}
+
+.social {
+  font-size: 1.75em;
+}
+
+.jumbo {
+  width: 100%;
+}
+
+.image {
+  max-height: 200px;
+  object-fit: cover;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.projects {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+  display: block;
+}
+
+.border {
+  border-top: 1px solid black;
+}
+
+.border p {
+  font-size: .75em;
+}
+
+.outline  {
+  margin-top: 30px;
+  border-bottom: 1px dashed lightgrey;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.outline a  {
+  width: 175px;
+  white-space: normal
+}
+
+.big-text {
+  font-size: 3em;
+  border-right: 1px solid black;
+}
+
+.fees {
+  background-color: #f2f2f2;
+}
+
+.fees-list  {
+  border-bottom: 1px dashed lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fees-last  {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title  {
+  margin-right: 15px;
+}
+
+
+/* zocial */
+[class*="fontawesome-"]:before {
+  font-family: 'fontawesome', sans-serif;
+}
+
+.search {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#byCourt  {
+  display: none;
+  margin-top: 5px;
+  width: 250px;
+}
+
+#byCourt select{
+  border-color: #5cb85c;
+}
+
+#byDate {
+  display: block;
+  margin-top: 5px;
+  width: 250px;
+}
+
+#byDate input{
+  border-color: #428bca;
+}
