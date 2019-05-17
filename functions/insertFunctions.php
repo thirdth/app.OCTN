@@ -31,7 +31,7 @@ function insert_client_email($email, $clientId, $isMain) {
 }
 
 function insert_client_address($clientId, $street1, $street2, $city, $state, $zip)  {
-  $clientId = $clientId
+  $clientId = $clientId;
   $street1 = $street1;
   $street2 = $street2;
   $city = $city;
