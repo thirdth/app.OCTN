@@ -19,7 +19,7 @@ function login_verify () {
       create_session($username, $password); // need to privatize this
       header("Location: index.php");
     }else {
-      echo "**Your Login information was incorrect, please try again.**";
+      $error = "**Your Login information was incorrect, please try again.**";
       die();
     };
   }
