@@ -68,7 +68,7 @@
             </ul>
             <ul class="pull-right login  nav navbar-nav">
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img height="30" width="30" src="img/userImages/ZGlaserProfile_70.png"> &nbsp; Profile</a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img height="25" width="25" src="img/userImages/ZGlaserProfile_70.png"> &nbsp; Profile</a>
                 <ul class="dropdown-menu">
                   <li><a href="newJob.php">Jobs</a></li>
                   <li><a href="adminCourt.php">Courts</a></li>
