@@ -4,10 +4,25 @@
 
 function header_check() {
   if(check_logged_in() == false)  {
-    include 'header.php';
+    include 'Views/Structure/header.php';
   } else {
-    include 'header_logged.php';
+    include 'Views/Structure/header_logged.php';
   };
+}
+
+function login_verify () {
+  if (!empty($_POST['submit']) && 'Log-in' == $_POST['submit']) { //TODO: move this to functions page
+    $password = $_POST['password'];
+    $username = $_POST['username'];
+    $conn = get_connected();
+    if (verify_me($username, $password)) {
+      create_session($username, $password); // need to privatize this
+      header("Location: index.php");
+    }else {
+      echo "**Your Login information was incorrect, please try again.**";
+      die();
+    };
+  }
 }
 
 // login functions

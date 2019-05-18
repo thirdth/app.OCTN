@@ -65,19 +65,17 @@
               <li><a href="/fees.php">Fee Schedule</a></li>
               <li><a href="/contact.php">Contact</a></li>
               <li><a href="/calendar.php">Calendar</a></li>
+            </ul>
+            <ul class="pull-right login  nav navbar-nav">
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Admin
-                <span class="caret"></span></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img height="30" width="30" src="img/userImages/ZGlaserProfile_70.png"> &nbsp; Profile</a>
                 <ul class="dropdown-menu">
                   <li><a href="newJob.php">Jobs</a></li>
                   <li><a href="adminCourt.php">Courts</a></li>
                   <li><a href="newClerk.php">Clerks</a></li>
-                  <li><a href="adminClient.php">Clients</a></li>
+                  <li><a href="logout.php">Logout</a></li>
                 </ul>
               </li>
-            </ul>
-            <ul class="pull-right login  nav navbar-nav">
-              <li><a href="logout.php">Logout</a></li>
             </ul>
           </div>
         </div>

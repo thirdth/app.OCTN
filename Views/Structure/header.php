@@ -66,9 +66,6 @@
               <li><a href="/contact.php">Contact</a></li>
               <li><a href="/calendar.php">Calendar</a></li>
             </ul>
-            <ul class="pull-right login nav navbar-nav">
-              <li><a href="login.php">Admin/Log-in</a></li>
-            </ul>
           </div>
         </div>
       </nav>

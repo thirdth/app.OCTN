@@ -1,12 +1,6 @@
 <?php
-if ($_GET['error'] == '1')  {
-  $error = "**Your information was incorrect. Please try again.";
-}
-include 'garble_cnfg.php';
-if (check_logged_in())  {
-  header("Location: newJob.php");
-}
-include 'header.php';?>
+login_verify();
+?>
 <div class="row">
   <div class="col-md-12">
     <div class="col-md-4">
@@ -15,7 +9,7 @@ include 'header.php';?>
       <h4 class="error"><?php echo $error ?></h4>
       <h2 class="text-center"><strong>Log-In.</strong></h2>
       <hr>
-        <form method="POST" action="verify.php" class="form-group">
+        <form method="POST" action="#" class="form-group">
           <div class="form-group row">
             <label for"username">Username</label>
             <input type="text" class="form-control" name="username">
@@ -36,4 +30,3 @@ include 'header.php';?>
     </div>
   </div>
 </div>
-<?php include 'footer.php'; ?>
